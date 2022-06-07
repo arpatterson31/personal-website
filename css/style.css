@@ -1,0 +1,131 @@
+/*
+possible color palettes
+#F8F8FF - off white
+#E1F2F7 - light blue
+#EF0D50 - red
+#EB3A70 - lighter red
+#E5BACE - matte pink */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F8FF;
+  font-family: 'Questrial', sans-serif;
+}
+
+#mainNavBar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavBar .navbar-brand {
+  color: #353839;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+#mainNavBar .nav-link {
+  color: #EB3A70;
+}
+
+#mainNavBar .nav-link:hover {
+  color: #353839;
+}
+
+
+h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: #EB3A70;
+  font-weight: 100;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.blurb i {
+  color: #c4e0e9
+}
+
+.blurb p {
+  color: #E5BACE;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+  margin-top: 2em;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+footer a {
+  color: #353839;
+}
+
+footer a.up-arrow:hover {
+  color: #EB3A70;
+}
+
+footer a.linkedin:hover {
+  color: #0072B1;
+}
+
+footer a.github:hover {
+  color: #7DBBE6;
+}
+
+footer a.instagram:hover {
+  color: #C13584;
+}
+
+footer a.twitter:hover {
+  color: #1DA1F2;
+}
+
+footer a.email:hover {
+  color: #DD4B39;
+}
+
+footer p {
+  color: #353839;
+  font-weight: 100;
+  font-size: 1.125rem;
+  margin-top: 30px;
+}
+
+@media (max-width: 1200px){
+  h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 960px){
+  #mainNavBar {
+    font-size: 1.15rem;
+    font-weight: 100;
+    background-color: #353839;
+    
+  }
+
+  #mainNavBar .navbar-brand {
+    color: #E5BACE;
+    font-size: 1.5rem;
+  
+  }
+
+  #mainNavBar .nav-link:hover {
+    color: #E5BACE;
+  }
+  
+  #mainNavBar .nav-link {
+    color: #EB3A70;
+    margin-left: 1rem;
+  }
+  
+}
