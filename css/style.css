@@ -54,8 +54,9 @@ h1 {
   color: #E5BACE;
   font-weight: 300;
   font-size: 1.4rem;
-  line-height: 2;
+  line-height: 1.5;
   margin-top: 2em;
+  margin-bottom: 1.25em;
 }
 
 .blurb a {
@@ -66,6 +67,26 @@ h1 {
 
 .blurb a:hover {
   color: #353839
+}
+
+.icon-grid {
+  line-height: 3.5;
+}
+
+.icon-grid i {
+  color: #353839
+}
+
+.devicon-mongodb-plain-wordmark {
+  font-size: 2.75em
+}
+
+.devicon-vscode-plain {
+  font-size: 2em
+}
+
+.devicon-xcode-plain {
+  font-size: 2.5em
 }
 
 .content {
@@ -108,7 +129,7 @@ footer p {
   margin-top: 30px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   h1 {
     font-weight: 100;
     font-size: 3rem;
@@ -116,24 +137,24 @@ footer p {
 
 }
 
-@media (max-width: 960px){
+@media (max-width: 960px) {
   #mainNavBar {
     font-size: 1.15rem;
     font-weight: 100;
     background-color: #353839;
-    
+
   }
 
   #mainNavBar .navbar-brand {
     color: #E5BACE;
     font-size: 1.5rem;
-  
+
   }
 
   #mainNavBar .nav-link:hover {
     color: #E5BACE;
   }
-  
+
   #mainNavBar .nav-link {
     color: #EB3A70;
     margin-left: 1rem;
@@ -146,11 +167,11 @@ footer p {
     line-height: 2;
     margin-top: 2em;
   }
-  
+
   .blurb a {
     color: #EB3A70;
     font-weight: 300;
     font-size: 1.25rem;
   }
-  
+
 }
