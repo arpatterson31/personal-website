@@ -22,15 +22,32 @@ body {
 #mainNavBar .navbar-brand {
   color: #353839;
   font-size: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 #mainNavBar .nav-link {
   color: #EB3A70;
+  position: relative;
 }
 
 #mainNavBar .nav-link:hover {
   color: #353839;
+
+}
+
+#mainNavBar .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0px; 
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #353839;
+  transition: width 0.3s ease; 
+}
+
+#mainNavBar .nav-link:hover::before {
+  width: 100%; 
 }
 
 
