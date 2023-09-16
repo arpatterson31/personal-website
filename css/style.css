@@ -1,10 +1,10 @@
 /*
 possible color palettes
 #F8F8FF - off white
-#E1F2F7 - light blue
+#91cade - light blue
 #EF0D50 - red
 #EB3A70 - lighter red
-#E5BACE - matte pink */
+#D49BB9 - matte pink */
 html {
   scroll-behavior: smooth;
 }
@@ -64,11 +64,11 @@ h1 {
 }
 
 .blurb i {
-  color: #c4e0e9
+  color: #91cade
 }
 
 .blurb p {
-  color: #E5BACE;
+  color: #D49BB9;
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -163,13 +163,13 @@ footer p {
   }
 
   #mainNavBar .navbar-brand {
-    color: #E5BACE;
+    color: #D49BB9;
     font-size: 1.5rem;
 
   }
 
   #mainNavBar .nav-link:hover {
-    color: #E5BACE;
+    color: #D49BB9;
   }
 
   #mainNavBar .nav-link {
@@ -178,7 +178,7 @@ footer p {
   }
 
   .blurb p {
-    color: #E5BACE;
+    color: #D49BB9;
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 2;
