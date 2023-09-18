@@ -1,0 +1,16 @@
+.blurb p {
+  color: #353839;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+p.lead strong {
+  font-weight: bold;
+}
+
+p.lead strong span {
+  font-size: 1.6rem;
+}
