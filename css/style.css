@@ -4,7 +4,7 @@ possible color palettes
 #91cade - light blue
 #EF0D50 - red
 #EB3A70 - lighter red
-#D49BB9 - matte pink */
+#da6ca6 - matte pink */
 html {
   scroll-behavior: smooth;
 }
@@ -68,7 +68,7 @@ h1 {
 }
 
 .blurb p {
-  color: #D49BB9;
+  color: #da6ca6;
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -76,9 +76,6 @@ h1 {
   margin-bottom: 1.25em;
 }
 
-.blurb strong {
-  font-weight: bold
-}
 
 .blurb a {
   color: #EB3A70;
