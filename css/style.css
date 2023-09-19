@@ -56,6 +56,10 @@ h1 {
   font-size: 4rem;
 }
 
+button.navbar-toggler {
+  margin-right: 1.15rem;
+}
+
 .blurb h2 {
   color: #EB3A70;
   font-weight: 300;
