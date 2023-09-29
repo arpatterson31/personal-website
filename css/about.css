@@ -14,3 +14,9 @@ p.lead strong {
 p.lead strong span {
   font-size: 1.6rem;
 }
+
+@media (max-width: 576px) {
+  .blurb i {
+    font-size: 2rem; /* Smaller size for screens up to 576px wide */
+  }
+}
