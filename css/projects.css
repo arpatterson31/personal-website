@@ -1,0 +1,36 @@
+.container {
+  margin-top: 4.5rem;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.project-icons {
+  width: 25%;
+  margin: auto;
+  margin-top: .5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-icons i {
+  font-size: 2rem;
+  color: #EB3A70; /* Change the icon color */
+  /* Add any other styles you need */
+}
+
+@media (max-width: 576px) {
+  .project-icons i {
+    font-size: 1.5rem; /* Smaller size for screens up to 576px wide */
+  }
+}
+
+@media (min-width: 992px) {
+  .project-icons i {
+    font-size: 2.5rem; /* Larger size for screens 992px and wider */
+  }
+}
