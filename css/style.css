@@ -50,6 +50,15 @@ body {
   width: 100%; 
 }
 
+.navbar-toggler {
+  border: none;
+  color: #EB3A70;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0
+}
+
 
 h1 {
   font-weight: 100;
