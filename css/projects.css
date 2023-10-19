@@ -10,6 +10,13 @@
   left: 0;
 }
 
+
+.card-img-overlay p {
+  font-size: 1.25rem;
+  line-height: 120%;
+}
+
+
 .project-icons {
   width: 25%;
   margin: auto;
@@ -28,6 +35,14 @@
     font-size: 1.5rem; /* Smaller size for screens up to 576px wide */
   }
 
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+  
+  .card-img-overlay h5 {
+    font-size: 1rem;
+  }
+
   .card-img-overlay {
     position: absolute;
     top: 65%;
@@ -40,5 +55,70 @@
 @media (min-width: 992px) {
   .project-icons i {
     font-size: 2.5rem; /* Larger size for screens 992px and wider */
+  }
+
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+  
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 834px) and (orientation: portrait) {
+  /*CSS styles for iPad Pro (10.5-inch and 11-inch) in portrait mode */
+  .card-img-overlay {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+  
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 834px) and (max-width: 1180px) and (orientation: landscape) {
+  /* CSS styles for iPad Pro (10.5-inch and 11-inch) in landscape mode */
+  .card-img-overlay {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+  
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 834px) and (orientation: portrait) {
+  /* CSS styles for iPad Mini in portrait mode */
+  .card-img-overlay {
+    position: absolute;
+    top: 58%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+  
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
   }
 }
